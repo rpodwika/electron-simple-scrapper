@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column; 
+}
+
+#get_data { 
+  width: 250px;
+  margin: 10px;
+}
+
+#output {
+  height: 130px;
+}

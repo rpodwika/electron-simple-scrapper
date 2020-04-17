@@ -1,0 +1,29 @@
+{
+  "name": "panorama",
+  "version": "1.0.0",
+  "description": "Scraps some data",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "build --dir",
+    "dist": "electron-builder -w"
+  },
+  "author": "Robert Podwika",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.3",
+    "electron-builder": "^22.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "standard": "^14.3.3"
+  },
+  "build": {
+    "appId": "robert_panorama",
+    "win": {
+      "target": "NSIS"
+    }
+  }
+}

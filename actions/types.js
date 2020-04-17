@@ -1,0 +1,2 @@
+exports.PARSE_SITE = 'PARSE_SITE'
+exports.PARSED_SITE = 'PARSE_SITED'
